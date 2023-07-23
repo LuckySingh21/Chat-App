@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 215, 228);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(187, 102, 229, 0), rgb(130, 18, 185));
+}
+
+form h1{
+    color: #530b96;
+    
+}
+#username-input{
+    width: 80vw;
+    border-radius: 10px;
+    align-self: center;
+    border: rgb(86, 18, 165);
+    padding: 10px;
+}
+
+#join-btn{
+    margin-top: 10%;
+    padding: 10px;
+    background-color: #9b47ea;
+    color: white;
+    border-radius: 10px;
+    border: rgb(86, 18, 165);
+}
+
+.main-container{
+    
+    display: none;
+    flex-direction: column;
+}
+.chatroom-header{
+    display: flex;
+    height: 7%;
+    justify-content: center;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    background-color:#b67aee;
+    color:#530b96;
+    color: white;
+    
+    letter-spacing: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight:600;
+    
+}
+.form-username{
+    display: block;
+}
+
+.chatroom-container{
+height: auto;
+overflow-y: hidden;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column; 
+}
+
+.message{
+    border-radius: 10px;
+    background-color:#bd82f4;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: fit-content;
+}
+
+.sent{
+    align-self: flex-end;
+    background-color:#bd82f4;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    background-color:#9b47ea ;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    gap: 1%;
+}
+
+
+
+#message-input{
+    width: 80vw;
+    border-radius: 10px;
+    border: rgb(86, 18, 165);
+    padding: 10px;
+}
+
+#send-btn{
+    padding: 10px;
+    background-color: #9b47ea;
+    color: white;
+    border-radius: 20%;
+    border-color: white;
+}
