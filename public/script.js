@@ -23,7 +23,7 @@ document.getElementById('send-btn').addEventListener('click',(event)=>{
     //sending message to io
     socket.emit('message',data);
     //what ever message i am sending i need to show that to UI
-
+    console.log(data);
     addMessage(data);
 })
 
@@ -38,6 +38,7 @@ socket.on('message',(data)=>{
 
 //working for sent messages
 function addMessage(data){
+    console.log('test');
     var msgDiv = document.createElement('div');
     msgDiv.innerText=`${data.username}: ${data.message}`;
     msgDiv.setAttribute('class','message sent');

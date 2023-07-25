@@ -19,7 +19,7 @@ form h1{
     
 }
 #username-input{
-    width: 80vw;
+    width: 60vw;
     border-radius: 10px;
     align-self: center;
     border: rgb(86, 18, 165);
@@ -42,7 +42,7 @@ form h1{
 }
 .chatroom-header{
     display: flex;
-    height: 7%;
+    height: 50px;
     justify-content: center;
     position:fixed;
     width: 100%;
@@ -62,7 +62,8 @@ form h1{
 }
 
 .chatroom-container{
-height: auto;
+margin-top:100px;
+height:90vh ;
 overflow-y: hidden;
 }
 
